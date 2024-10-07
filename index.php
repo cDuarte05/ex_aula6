@@ -10,8 +10,8 @@
     <h1>Bem vindo</h1>
     <p>Selecione a opção desejada: </p>
     <div class="menu">
-        <p><input type="button" onclick ="window.location.href='gravar.html'" value="Gravar dados" ></p>
-        <p><input type="button" onclick = "window.location.href='dados.txt'" value="Ver dados"></p>
+        <input type="button" onclick ="window.location.href='gravar.html'" value="Gravar dados" >
+        <input type="button" onclick = "window.location.href='dados.txt'" value="Ver dados">
     </div>
 
     <!-- CONTADOR DE VISITAS -->
