@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    background-color: rgb(207, 164, 108);
+    color: rgb(0, 0, 0);
+    font-size: large;
+    padding: 50px;
+}
+
+input[type="button"] {
+    padding: 10px 5px;
+    font-size:small;
+    cursor: pointer; /*muda o ponteiro*/
+    background-color: #fff; 
+    border-radius: 5px; 
+}
+
+/* Estilo quando o botão for pressionado (estado :active) */
+input[type="button"]:active {
+    background-color: #ccc; /* Muda a cor de fundo quando o botão for pressionado */
+    transform: scale(0.95); /* Leve redução no tamanho do botão ao clicar */
+}
