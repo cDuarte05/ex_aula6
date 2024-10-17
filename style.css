@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-color: rgb(207, 164, 108);
+    background-color: rgb(172, 207, 108);
     color: rgb(0, 0, 0);
     font-size: large;
     padding: 50px;
@@ -18,4 +18,19 @@ input[type="button"] {
 input[type="button"]:active {
     background-color: #ccc; /* Muda a cor de fundo quando o botão for pressionado */
     transform: scale(0.95); /* Leve redução no tamanho do botão ao clicar */
+}
+
+table{
+    width: 100%;
+    padding: 50px;
+    border-collapse: collapse;
+}
+
+th{
+    height: 50px;
+    color: red;
+}
+
+td{
+    text-align: center;
 }

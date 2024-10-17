@@ -1,3 +1,7 @@
-	Prontuario		Nome		Nota1		Nota2		Resultado
-	ht12345		Henrique		10		2		APROVADO	Prontuario		Nome		Nota1		Nota2		Resultado
-	ht45678		Luis		12		5		APROVADO
+Prontuário	Nome	Nota Prova	Nota Trabalho	Resultado
+ht123456789	Luis	10	5	APROVADO
+ht987654	Henrique	10	8	APROVADO
+ht7845989	Jessica 	7	7	APROVADO
+ht789456123	Joao Pedro	8	1	RECUPERAÇÃO
+ht1234	Cleber	7	8	APROVADO
+ht213546	Jessica oliveira	3	3	RECUPERAÇÃO

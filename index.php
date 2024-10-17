@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class = "body-index"></div>
     <h1>Bem vindo</h1>
     <p>Selecione a opção desejada: </p>
     <div class="menu">
