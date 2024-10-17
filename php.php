@@ -8,18 +8,18 @@
     if($media >=6){
         $media = "APROVADO";
     }else{
-        $media = "RECUPERAÇÃO";
+        $media = "RECUPERACAO";
     }
 
-    $arquivoDados = fopen("C:\xampp\htdocs\ex_aula6\dados.txt", "a");
+    $arquivoDados = fopen("dados.txt", "a");
     //Para formar os titulos estilo de tabela
-    fwrite($arquivoDados,"<b>Prontuario\tNome\tNota1\tNota2\tResultado</b>");
+    fwrite($arquivoDados,"\tProntuario\t\tNome\t\tNota1\t\tNota2\t\tResultado");
     //para monstrar os dados no estilo tabela
-    $escrita = "$prontuario\t$nome\t$notaProva\t$notaTrabalho\t$media";
+    $escrita = "\n\t$prontuario\t\t$nome\t\t$notaProva\t\t$notaTrabalho\t\t$media";
     fwrite($arquivoDados,$escrita);
     fclose($arquivoDados);
 
     echo "Dados Salvo com sucesso";
 
-    echo '<input type="button" onclick="window.location.href=\'index.php\'" value="Retornar ao menu">';
+    echo '<br><br><input type="button" onclick="window.location.href=\'index.php\'" value="Retornar ao menu">';
 ?>
