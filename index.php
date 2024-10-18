@@ -12,7 +12,7 @@
     <p>Selecione a opção desejada: </p>
     <div class="menu">
         <input type="button" onclick ="window.location.href='gravar.html'" value="Gravar dados" >
-        <input type="button" onclick = "window.location.href='leitura.php'" value="Ver dados">
+        <input type="button" onclick = "window.location.href='exibir.php'" value="Ver dados">
     </div>
 
     <!-- CONTADOR DE VISITAS -->

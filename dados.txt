@@ -5,3 +5,5 @@ ht7845989	Jessica 	7	7	APROVADO
 ht789456123	Joao Pedro	8	1	RECUPERAÇÃO
 ht1234	Cleber	7	8	APROVADO
 ht213546	Jessica oliveira	3	3	RECUPERAÇÃO
+ht12453678	Henrique	5	6	RECUPERAÇÃO
+ht12453678	Ana Lia Marques	5	5	RECUPERAÇÃO
